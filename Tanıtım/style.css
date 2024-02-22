@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+}
+
+.yan {
+    width: 350px;
+    height: 919px;
+    background-color: orange;
+}
+
+.yan img {
+    position: absolute;
+    border-radius: 100px;
+    border: rgba(179, 116, 0, 0.658) 7px solid;
+    top: 10rem;
+    left: 60px;
+    width: 200px;
+    animation-name: animasyon;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes animasyon {
+    from {
+        top: -200px;
+    }
+
+    to {
+        top: 150px;
+    }
+}
+
+.yan a {
+    position: relative;
+    top: 400px;
+    left: -20px;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    transition: 0.5s;
+}
+
+.yan a:hover {
+    transition: 0.5s;
+    color: black;
+}
+
+.ana {
+    position: absolute;
+    top: 150px;
+    left: 400px;
+    width: 1200px;
+    height: 600px;
+
+}
+
+.ana h1 {
+    font-size: 90px;
+}
+
+.ana #tay {
+    position: absolute;
+    top: 0px;
+    left: 360px;
+    color: orange;
+}
+
+.ana h3 {
+    margin-left: 10px;
+}
+
+.ana a {
+    color: orange;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+.ana a:hover {
+    transition: 0.5s;
+    color: black;
+}
+
+.ana p {
+    margin-left: 10px;
+    margin-top: 90px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.logolar img {
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 60px;
+}
